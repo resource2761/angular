@@ -1,1 +1,94 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+//@import '~ngx-owl-carousel-o/lib/styles/scss/owl.carousel.scss';
+//@import '~ngx-owl-carousel-o/lib/styles/scss/owl.theme.default.scss';
+@import "~swiper/swiper-bundle";
+//@import "./assets/materialize/css/materialize.min.css";
+
+
+// ------- import fonts ------------------------ //
+@font-face {
+    font-family: 'Tw Cen MT';
+    src: url('../src/assets/fonts/TCM.TTF');
+    
+  }
+
+
+  @font-face {
+    font-family: 'Neusa Next Std-Medium';
+    src: url('../src/assets/fonts/Neusa-Medium.otf');
+    
+  }
+
+
+  @font-face {
+    font-family: 'Neusa Next Std-Light';
+    src: url('../src/assets/fonts/Neusa-Light.otf');
+    
+  }
+
+
+  @font-face {
+    font-family: 'Neusa Next Std-Regular';
+    src: url('../src/assets/fonts/Neusa-Regular.otf');
+    
+  }
+
+
+  @font-face {
+    font-family: 'Neusa-bold';
+    src: url('../src/assets/fonts/Neusa-Bold.otf');
+    
+  }
+
+
+
+  @font-face {
+    font-family: 'segoe-ui';
+    src: url('../src/assets/fonts/segoe-ui.ttf');
+    
+  }
+
+  @font-face {
+    font-family: 'MarckScript-Regular';
+    src: url('../src/assets/fonts/MarckScript-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'LaBelleAurore-Regular';
+    src: url('../src/assets/fonts/LaBelleAurore-Regular.ttf');
+}
+
+
+@font-face {
+    font-family: 'Qwigley-Regular';
+    src: url('../src/assets/fonts/Qwigley-Regular.ttf');
+}
+
+
+@font-face {
+    font-family: 'Montserat-Regular';
+    src: url('../src/assets/fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Montserat-Light';
+    src: url('../src/assets/fonts/Montserrat-Light.ttf');
+}
+
+
+@font-face
+{
+    font-family: 'SourceSansPro-SemiBold';
+    src:url('../src/assets/fonts/SourceSansPro-SemiBold.ttf');
+    
+}
+
+@font-face{
+    font-family: 'SourceSansPro-Bold';
+    src: url('../src/assets/fonts/SourceSansPro-Bold.ttf');
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+

@@ -1,0 +1,138 @@
+
+* 
+{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+}
+
+
+.main {
+    margin: 0rem 0rem;
+}
+
+.top-header-box
+{
+  background-color:#f0f1ef;
+  width: 100%;
+  height:30px;
+  padding: 5px 0px;
+
+}
+
+.top-header-content
+{
+   
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: right;
+   
+    
+    a
+    {
+      text-decoration: none;
+      padding:0px 5px;
+
+    }
+    .label
+    {
+      font-family: 'segoe-ui';
+      font-size: 14px;
+      display: inline;
+      
+    }
+}
+
+
+
+
+  .user-cart
+  {
+    margin: 30px 0px;
+    margin-left:10%;
+    float: right;
+    
+    a
+    {
+      margin-right: 15px;
+      display: inline;
+    }
+
+
+    ion-badge
+    {
+      position: absolute;
+      font-family: 'segoe-ui';
+      font-size: 14px;
+      margin-left: 0rem;
+      margin-top:0.5rem;
+    
+    }
+
+  }
+
+
+
+
+.menudropdown-content #homeo_image1, #homeo_image2, #homeo_image3, #homeo_image4, 
+#homeo_image5, #homeo_image6, #personal_image1, #personal_image2, #personal_image3, 
+#personal_image4, #personal_image5, #personal_image6  
+{
+  max-width: 24px;
+  max-height:24px;
+}
+
+
+mat-sidenav-container, mat-sidenav-content, mat-sidenav {
+  height: 100%;
+}
+
+mat-sidenav {
+  width: 250px;
+}
+
+
+main {
+  padding: 10px;
+}
+
+// .sliderimage
+// {
+//     width: 400px;
+//     height: 300px;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+    
+    
+    
+    
+
+//     img
+//     {
+//         width: 410px;
+//         height:250px;
+//         margin: 0 auto;
+        
+        
+//     }
+// }
+
+// .owlimages
+// {
+// img
+//     {
+//         width: 400px;
+//         height:250x;
+//     }
+// }
+
+// .carousel
+// {
+//     img
+//     {
+//         width: 400px;
+//         height:300px;
+//     }
+// }

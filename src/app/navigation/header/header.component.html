@@ -1,0 +1,57 @@
+<mat-toolbar color="primary">
+  <div fxHide.gt-xs>
+    <!-- <button mat-icon-button (click)="onToggleSidenav()"></button> -->
+      <mat-icon>menu</mat-icon>
+    
+  </div>
+  <div>
+    <a routerLink="/">LOGO</a>
+  </div>
+  <div fxFlex fxLayout fxLayoutAlign="flex-end" fxHide.xs>
+    <ul fxLayout fxLayoutGap="10px" class="navigation-items">
+      <li *ngIf="!isauth">
+        <a routerLink="/signup">Home</a>
+      </li>
+      <li>
+        <a *ngIf="!isauth" routerLink="/login">Login</a>
+      </li>
+      <li *ngIf="!isauth">
+        <a routerLink="/training">Training</a>
+      </li>
+      <li *ngIf="isauth">
+        <a style="cursor: pointer;" (click)="logout()">Logout</a>
+      </li>
+
+      <mat-list-item [matMenuTriggerFor]="menu">
+
+        <a matline>Example</a>
+        <mat-icon>unfold_more</mat-icon>
+      </mat-list-item>
+
+      <mat-menu #menu="matMenu">
+        <!-- <button mat-menu-item routerLink="/training">View profile</button>
+        <button mat-menu-item (click)="onSidenavClose()">Add contact</button> -->
+      </mat-menu>
+
+
+      <mat-list-item [matMenuTriggerFor]="menu">
+
+        <a routerLink="/training">Example</a>
+        <mat-icon>unfold_more</mat-icon>
+      </mat-list-item>
+
+      <mat-menu #appMenu="matMenu">
+        <ng-template matMenuContent>
+          <button mat-menu-item>Settings</button>
+          <button mat-menu-item>Help</button>
+        </ng-template>
+      </mat-menu>
+
+      <button mat-icon-button [matMenuTriggerFor]="appMenu">
+        <mat-icon>more_vert</mat-icon>
+      </button>
+
+
+    </ul>
+  </div>
+</mat-toolbar>
